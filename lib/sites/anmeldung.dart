@@ -13,8 +13,8 @@ class Anmeldung extends StatelessWidget {
         body: Container(
           child: Column(crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                ListTile(leading: Text('username'),title: Container(width:100,child: TextField(controller: _name,)),),
-                ListTile(leading: Text('password'),title: Container(width:100,child: TextField(controller: _password,)),),
+                ListTile(leading: Text('Benutzername'),title: Container(width:100,child: TextField(controller: _name,)),),
+                ListTile(leading: Text('Passwort'),title: Container(width:100,child: TextField(controller: _password,)),),
                 ElevatedButton(onPressed: ()=>addItem(_name.text,_password.text), child: Text('Registrieren'))
               ]),),
     );
