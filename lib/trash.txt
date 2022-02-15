@@ -1,0 +1,26 @@
+                            Container(
+                                width: constraints.maxWidth * 0.2,
+                                child: IconButton(
+                                    onPressed: () {
+                                      setState(
+                                              () => widget.proofedDrive[index] = true);
+                                    },
+                                    icon: Icon(
+                                      Icons.done,
+                                      color: widget.proofedDrive[index]
+                                          ? Colors.green
+                                          : Colors.grey,
+                                    ))),
+                            Container(
+                                width: constraints.maxWidth * 0.2,
+                                child: IconButton(
+                                    onPressed: () {
+                                      setState(() =>
+                                      widget.proofedDrive[index] = false);
+                                    },
+                                    icon: Icon(
+                                      Icons.close,
+                                      color: widget.proofedDrive[index]
+                                          ? Colors.grey
+                                          : Colors.red,
+                                    ))),

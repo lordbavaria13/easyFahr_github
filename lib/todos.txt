@@ -1,0 +1,10 @@
+
+Statistiken:
+Chart erstellen für die Statistiken -- vorbild ist die FractionallySizedBar von Udemy
+
+Hompage:
+Module erstellen für die Map mit den täglichen Fahrten, damit man auch Daten für das ganze Jahr abspeichern kann
+
+Einstellungen:
+Liste mit allen KWs generieren lassen.
+Bei Klick auf ListeTile -> Fahrer verändern
